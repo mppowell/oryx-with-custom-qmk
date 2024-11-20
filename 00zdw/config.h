@@ -11,3 +11,7 @@
 
 #define RGB_MATRIX_STARTUP_SPD 60
 
+
+
+# Custom QMK here
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
