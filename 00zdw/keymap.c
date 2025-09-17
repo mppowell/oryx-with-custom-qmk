@@ -68,6 +68,9 @@ bool is_mouse_record_kb(uint16_t keycode, keyrecord_t* record) {
     case NAVIGATOR_INC_CPI ... NAVIGATOR_AIM:
     case DRAG_SCROLL:
     case TOGGLE_SCROLL:
+    case KC_MS_BTN3:
+    case KC_MS_BTN2:
+    case KC_MS_BTN1:
       return true;
   }
   return is_mouse_record_user(keycode, record);
